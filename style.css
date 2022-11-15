@@ -1,0 +1,111 @@
+h1{
+    color: #FFFFFF;
+    background-color: #FF0000;
+}
+
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.meatballs_flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.upper_bun{
+    border-radius: 50px 50px 10px 10px;
+    width: 500px;
+    height: 50px;
+    padding: 5px;
+    background: #DEB887;
+    border-bottom: 10px solid #D3A15F;
+}
+
+
+.bottom_bun{
+    border-radius: 10px 10px 25px 25px;
+    width: 500px;
+    height: 25px;
+    padding: 5px;
+    background: #DEB887;
+    border-bottom: 4px solid #D3A15F;
+}
+
+.cheese{
+    width: 560px;
+    height: 12px;
+    padding: 5px;
+    background: #FFD700;
+    border-bottom: 5px solid #DAA520;
+}
+
+
+.meat{
+    border-radius: 25px;
+    background:  #CC6633;
+    border-bottom: 4px solid #993300;
+    padding: 5px;
+    width: 400px;
+    height: 20px;
+}
+
+.tomato {
+    width: 320px;
+    height: 20px;
+    padding: 5px;
+    background: #FF0000;
+    border-bottom: 4px solid #DC143C;
+}
+
+.onion{
+    display: flex;
+    background:  #800080;
+    padding: 5px;
+    width: 300px;
+    height: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.onion_inside{
+    border-radius: 50%;
+    background: #DDA0DD;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+
+.meatballs{
+    border-radius: 50%;
+    background:  #A52A2A;
+    padding: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+
+.cucamber{
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background:  #90EE90;
+    border-bottom: 15px solid #008000;
+    padding: 5px;
+    width: 300px;
+    height: 10px;
+}
+
+
