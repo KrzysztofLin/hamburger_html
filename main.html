@@ -9,39 +9,76 @@
     <link rel="stylesheet" href="style.css">
     
 </head>
+
 <body>
-<div class="container">
-    <h1> HTML & CSS HAMBURGER </h1>
-    <div class="box">
+<main class="main_container">
+    <h1> Employment form </h1>
 
-        <div class="upper_bun"></div>
-        <div class="cheese"></div>
-        <div class="tomato"></div>
-        <div class="cheese"></div>
-        <div class="cheese"></div>
-        <div class="meat"></div>
-        <div class="onion">
-            <div class="onion_inside"></div>
-            <div class="onion_inside"></div>
-            <div class="onion_inside"></div>
-            <div class="onion_inside"></div>
-            <div class="onion_inside"></div>
-            <div class="onion_inside"></div>
-            <div class="onion_inside"></div>
-        </div>
+    <form action= "adres.html" method="post">
+        <section class="element_container">
+            <label for="fname" class="label">
+                First name:
+                <input type="text" id="fname" name="user_name" />
+            </label>
 
-        <div class="meatballs_flex">
-            <div class="meatballs"></div>
-            <div class="meatballs"></div>
-            <div class="meatballs"></div>
-        </div>
-        <div class="cucamber"></div>
-        <div class="meat"></div>
-        <div class="meat"></div>
-        <div class="bottom_bun"></div>
+            <label for="lname" class="label">
+                Last name:
+                <input type="text" id="lname" name="user_name" />
+            </label>
 
-    </div>
-</div>
+        </section>
+
+        <section class="element_container">
+            <label for="email" class="label">
+                E-mail:
+                <input type="email" id="email" name="user_email" size="30"/>
+            </label>
+
+
+            <label for="phone" class="label">
+                Phone:
+                <input type="tel" id="phone" name="phone" size="30" pattern="[0-9]{3} [0-9]{3} [0-9]{3}"/>
+            </label>
+
+
+            <label for="b_date" class="label">
+                Enter your birthday:
+                <input type="date" id="b_date" name="bday" />
+            </label>
+
+        </section>
+
+        <label for="gender" class="label">Gender:</label>
+        <select id="gender" name="gender" size="3">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+
+        <h2> What are you looking for? </h2>
+        <section class="element_container">
+            <label><input type="radio" name="radio" value="SE" /> Software Engineer</label>
+            <label><input type="radio" name="radio" value="UXD" /> UX Designer</label>
+            <label><input type="radio" name="radio" value="AS" /> Analytics Specialist</label>
+            <label><input type="radio" name="radio" value="PM" /> Project Manager</label>
+        </section>
+
+        <h2> Which programming languages do you know? </h2>
+        <section class="element_container">
+            <label for="java"><input type="checkbox" id="java" name="java" checked>Java</label>
+            <label for="javaScript"><input type="checkbox" id="javaScript" name="javaScript" checked>JavaScript</label>
+            <label for="c#"><input type="checkbox" id="c#" name="c#" checked>C#</label>
+            <label for="kotlin"><input type="checkbox" id="kotlin" name="kotlin" checked>Kotlin</label>
+            <label for="python"><input type="checkbox" id="python" name="python" checked>Python</label>
+            <label for="scala"><input type="checkbox" id="scala" name="scala" checked>Scala</label>
+        </section>
+
+        <h2> Message </h2>
+        <textarea id="msg" name="user_message"></textarea>
+
+        <button> sth </button>
+    </form>
+</main>
+
 
 </body>
 </html>

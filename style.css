@@ -1,22 +1,49 @@
 h1{
-    color: #FFFFFF;
-    background-color: #FF0000;
+    color: orange;
+    //background-color: #FF0000;
+}
+
+h2{
+    color: orange;
+    font-size: 18px;
+}
+
+.label{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: orange;
+    font-size: 15px;
 }
 
 
-.box {
+.main_container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.container {
+.element_container{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    padding: 5px;
+    //width: 300px;
+    //height: 20px;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
+    gap: 10px;
+
 }
+
+
+
+
+
+
+
+
+
 
 .meatballs_flex{
     display: flex;
